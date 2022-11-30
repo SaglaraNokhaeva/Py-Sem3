@@ -34,8 +34,8 @@ max_local = 0
 for i in range(str1.__len__()):
     if str1[i] == 'Р':
         max_local = max_local+1
-    else:
         if max_local>max:
             max = max_local
+    else:
         max_local = 0
 print(max)
