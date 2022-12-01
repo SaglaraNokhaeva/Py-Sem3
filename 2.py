@@ -36,36 +36,36 @@ hacker = ['a', 'n', 't', 'o', 'n','']
 count=0
 otvet=[]
 for i in range(n):
-u=input()
-f.append(u)
+    u=input()
+    f.append(u)
 for i in range(len(f)):
-hacker = ['a', 'n', 't', 'o', 'n','']
+    hacker = ['a', 'n', 't', 'o', 'n','']
 for j in range(len(f[i])):
-if f[i][j]==hacker[0]:
-hacker.pop(0)
-if hacker==['']:
-count=1+i
+    if f[i][j]==hacker[0]:
+        hacker.pop(0)
+    if hacker==['']:
+        count=1+i
 
-otvet.append(count)
+        otvet.append(count)
 
 
 
-break
+# break
 
-print(*otvet)
+# print(*otvet)
 
-n = int(input())
-list1 = []
-for i in range(n):
-a = input()
-if 'a' in a:
-a = a[a.find('a'):]
-if 'n' in a:
-a = a[a.find('n'):]
-if 't' in a:
-a = a[a.find('t'):]
-if 'o' in a:
-a = a[a.find('o'):]
-if 'n' in a:
-list1.append(i + 1)
-print(*list1)
+# n = int(input())
+# list1 = []
+# for i in range(n):
+#     a = input()
+#     if 'a' in a:
+#         a = a[a.find('a'):]
+#     if 'n' in a:
+#         a = a[a.find('n'):]
+#         if 't' in a:
+#             a = a[a.find('t'):]
+#             if 'o' in a:
+#                 a = a[a.find('o'):]
+#                 if 'n' in a:
+#                     list1.append(i + 1)
+# print(*list1)
